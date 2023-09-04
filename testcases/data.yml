@@ -1,0 +1,24 @@
+#每一个横杠为一个用例数据、最好按照模块分用例
+-
+  name : 获得设备管信息
+  request :
+    method : get
+    url : http://10.88.202.145:8090/api/product/getBexBourneList
+    data :
+      pageNum : 1
+      pageSize : 5
+    headers :
+      Authorization : Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MywiZXhwIjoxNjkzODk4NTgwLCJhdXRob3JpdGllcyI6WyI1X-i2hee6p-euoeeQhuWRmCJdLCJqdGkiOiI0MGE2ZGY4MC0wODNlLTQwMjctYjNjYi02MDZjMDhhY2Y2N2QiLCJjbGllbnRfaWQiOiJhZG1pbi1hcHAifQ.JQ4Df2ces048t-vU5Kt-JzsQ9qcjATjCMdKfqItRS7NA0LgkBf_iZWl1WlRkJmB-gVxIXheuk2nOQI-zrJydC4g5aXUAXfMv-uv8E6kk5zaF0ARM12sKn2Lg26J3Abizw52KErajCmmlzjePdZRA5x8fx2CbKnj1BTc1lV4rOPk
+      Content-Type : application/json; charset=UTF-8
+      validata : None
+#-
+#  name : 获得设备管信息01
+#  request :
+#    method : get
+#    url : http://172.16.0.181:8508/pwrApi/infoscreen/pdeScreen/list
+#    data :
+#      projectId : 2c92808e80f408230180f4a9e28d04c8
+#    headers :
+#      userToken : 5daff33d9c6df9fdad79e038607b3630
+#      Content-Type : application/json; charset=UTF-8
+#    validata : None
